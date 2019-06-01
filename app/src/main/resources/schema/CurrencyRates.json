@@ -1,0 +1,1743 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "success",
+    "timestamp",
+    "base",
+    "date",
+    "rates"
+  ],
+  "properties": {
+    "success": {
+      "$id": "#/properties/success",
+      "type": "boolean",
+      "title": "The Success Schema",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "timestamp": {
+      "$id": "#/properties/timestamp",
+      "type": "integer",
+      "title": "The Timestamp Schema",
+      "default": 0,
+      "examples": [
+        1559243347
+      ]
+    },
+    "base": {
+      "$id": "#/properties/base",
+      "type": "string",
+      "title": "The Base Schema",
+      "default": "",
+      "examples": [
+        "EUR"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "date": {
+      "$id": "#/properties/date",
+      "type": "string",
+      "title": "The Date Schema",
+      "default": "",
+      "examples": [
+        "2019-05-30"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "rates": {
+      "$id": "#/properties/rates",
+      "type": "object",
+      "title": "The Rates Schema",
+      "required": [
+        "AED",
+        "AFN",
+        "ALL",
+        "AMD",
+        "ANG",
+        "AOA",
+        "ARS",
+        "AUD",
+        "AWG",
+        "AZN",
+        "BAM",
+        "BBD",
+        "BDT",
+        "BGN",
+        "BHD",
+        "BIF",
+        "BMD",
+        "BND",
+        "BOB",
+        "BRL",
+        "BSD",
+        "BTC",
+        "BTN",
+        "BWP",
+        "BYN",
+        "BYR",
+        "BZD",
+        "CAD",
+        "CDF",
+        "CHF",
+        "CLF",
+        "CLP",
+        "CNY",
+        "COP",
+        "CRC",
+        "CUC",
+        "CUP",
+        "CVE",
+        "CZK",
+        "DJF",
+        "DKK",
+        "DOP",
+        "DZD",
+        "EGP",
+        "ERN",
+        "ETB",
+        "EUR",
+        "FJD",
+        "FKP",
+        "GBP",
+        "GEL",
+        "GGP",
+        "GHS",
+        "GIP",
+        "GMD",
+        "GNF",
+        "GTQ",
+        "GYD",
+        "HKD",
+        "HNL",
+        "HRK",
+        "HTG",
+        "HUF",
+        "IDR",
+        "ILS",
+        "IMP",
+        "INR",
+        "IQD",
+        "IRR",
+        "ISK",
+        "JEP",
+        "JMD",
+        "JOD",
+        "JPY",
+        "KES",
+        "KGS",
+        "KHR",
+        "KMF",
+        "KPW",
+        "KRW",
+        "KWD",
+        "KYD",
+        "KZT",
+        "LAK",
+        "LBP",
+        "LKR",
+        "LRD",
+        "LSL",
+        "LTL",
+        "LVL",
+        "LYD",
+        "MAD",
+        "MDL",
+        "MGA",
+        "MKD",
+        "MMK",
+        "MNT",
+        "MOP",
+        "MRO",
+        "MUR",
+        "MVR",
+        "MWK",
+        "MXN",
+        "MYR",
+        "MZN",
+        "NAD",
+        "NGN",
+        "NIO",
+        "NOK",
+        "NPR",
+        "NZD",
+        "OMR",
+        "PAB",
+        "PEN",
+        "PGK",
+        "PHP",
+        "PKR",
+        "PLN",
+        "PYG",
+        "QAR",
+        "RON",
+        "RSD",
+        "RUB",
+        "RWF",
+        "SAR",
+        "SBD",
+        "SCR",
+        "SDG",
+        "SEK",
+        "SGD",
+        "SHP",
+        "SLL",
+        "SOS",
+        "SRD",
+        "STD",
+        "SVC",
+        "SYP",
+        "SZL",
+        "THB",
+        "TJS",
+        "TMT",
+        "TND",
+        "TOP",
+        "TRY",
+        "TTD",
+        "TWD",
+        "TZS",
+        "UAH",
+        "UGX",
+        "USD",
+        "UYU",
+        "UZS",
+        "VEF",
+        "VND",
+        "VUV",
+        "WST",
+        "XAF",
+        "XAG",
+        "XAU",
+        "XCD",
+        "XDR",
+        "XOF",
+        "XPF",
+        "YER",
+        "ZAR",
+        "ZMK",
+        "ZMW",
+        "ZWL"
+      ],
+      "properties": {
+        "AED": {
+          "$id": "#/properties/rates/properties/AED",
+          "type": "number",
+          "title": "The Aed Schema",
+          "default": 0.0,
+          "examples": [
+            4.089626
+          ]
+        },
+        "AFN": {
+          "$id": "#/properties/rates/properties/AFN",
+          "type": "number",
+          "title": "The Afn Schema",
+          "default": 0.0,
+          "examples": [
+            88.29611
+          ]
+        },
+        "ALL": {
+          "$id": "#/properties/rates/properties/ALL",
+          "type": "number",
+          "title": "The All Schema",
+          "default": 0.0,
+          "examples": [
+            122.702001
+          ]
+        },
+        "AMD": {
+          "$id": "#/properties/rates/properties/AMD",
+          "type": "number",
+          "title": "The Amd Schema",
+          "default": 0.0,
+          "examples": [
+            534.761175
+          ]
+        },
+        "ANG": {
+          "$id": "#/properties/rates/properties/ANG",
+          "type": "number",
+          "title": "The Ang Schema",
+          "default": 0.0,
+          "examples": [
+            2.087286
+          ]
+        },
+        "AOA": {
+          "$id": "#/properties/rates/properties/AOA",
+          "type": "number",
+          "title": "The Aoa Schema",
+          "default": 0.0,
+          "examples": [
+            367.946373
+          ]
+        },
+        "ARS": {
+          "$id": "#/properties/rates/properties/ARS",
+          "type": "number",
+          "title": "The Ars Schema",
+          "default": 0.0,
+          "examples": [
+            49.60437
+          ]
+        },
+        "AUD": {
+          "$id": "#/properties/rates/properties/AUD",
+          "type": "number",
+          "title": "The Aud Schema",
+          "default": 0.0,
+          "examples": [
+            1.61167
+          ]
+        },
+        "AWG": {
+          "$id": "#/properties/rates/properties/AWG",
+          "type": "number",
+          "title": "The Awg Schema",
+          "default": 0.0,
+          "examples": [
+            2.004226
+          ]
+        },
+        "AZN": {
+          "$id": "#/properties/rates/properties/AZN",
+          "type": "number",
+          "title": "The Azn Schema",
+          "default": 0.0,
+          "examples": [
+            1.89845
+          ]
+        },
+        "BAM": {
+          "$id": "#/properties/rates/properties/BAM",
+          "type": "number",
+          "title": "The Bam Schema",
+          "default": 0.0,
+          "examples": [
+            1.95479
+          ]
+        },
+        "BBD": {
+          "$id": "#/properties/rates/properties/BBD",
+          "type": "number",
+          "title": "The Bbd Schema",
+          "default": 0.0,
+          "examples": [
+            2.217175
+          ]
+        },
+        "BDT": {
+          "$id": "#/properties/rates/properties/BDT",
+          "type": "number",
+          "title": "The Bdt Schema",
+          "default": 0.0,
+          "examples": [
+            94.064657
+          ]
+        },
+        "BGN": {
+          "$id": "#/properties/rates/properties/BGN",
+          "type": "number",
+          "title": "The Bgn Schema",
+          "default": 0.0,
+          "examples": [
+            1.955681
+          ]
+        },
+        "BHD": {
+          "$id": "#/properties/rates/properties/BHD",
+          "type": "number",
+          "title": "The Bhd Schema",
+          "default": 0.0,
+          "examples": [
+            0.419746
+          ]
+        },
+        "BIF": {
+          "$id": "#/properties/rates/properties/BIF",
+          "type": "number",
+          "title": "The Bif Schema",
+          "default": 0.0,
+          "examples": [
+            2061.012332
+          ]
+        },
+        "BMD": {
+          "$id": "#/properties/rates/properties/BMD",
+          "type": "number",
+          "title": "The Bmd Schema",
+          "default": 0.0,
+          "examples": [
+            1.113459
+          ]
+        },
+        "BND": {
+          "$id": "#/properties/rates/properties/BND",
+          "type": "number",
+          "title": "The Bnd Schema",
+          "default": 0.0,
+          "examples": [
+            1.504062
+          ]
+        },
+        "BOB": {
+          "$id": "#/properties/rates/properties/BOB",
+          "type": "number",
+          "title": "The Bob Schema",
+          "default": 0.0,
+          "examples": [
+            7.69272
+          ]
+        },
+        "BRL": {
+          "$id": "#/properties/rates/properties/BRL",
+          "type": "number",
+          "title": "The Brl Schema",
+          "default": 0.0,
+          "examples": [
+            4.425001
+          ]
+        },
+        "BSD": {
+          "$id": "#/properties/rates/properties/BSD",
+          "type": "number",
+          "title": "The Bsd Schema",
+          "default": 0.0,
+          "examples": [
+            1.113292
+          ]
+        },
+        "BTC": {
+          "$id": "#/properties/rates/properties/BTC",
+          "type": "number",
+          "title": "The Btc Schema",
+          "default": 0.0,
+          "examples": [
+            0.000129
+          ]
+        },
+        "BTN": {
+          "$id": "#/properties/rates/properties/BTN",
+          "type": "number",
+          "title": "The Btn Schema",
+          "default": 0.0,
+          "examples": [
+            77.704355
+          ]
+        },
+        "BWP": {
+          "$id": "#/properties/rates/properties/BWP",
+          "type": "number",
+          "title": "The Bwp Schema",
+          "default": 0.0,
+          "examples": [
+            12.121138
+          ]
+        },
+        "BYN": {
+          "$id": "#/properties/rates/properties/BYN",
+          "type": "number",
+          "title": "The Byn Schema",
+          "default": 0.0,
+          "examples": [
+            2.332863
+          ]
+        },
+        "BYR": {
+          "$id": "#/properties/rates/properties/BYR",
+          "type": "number",
+          "title": "The Byr Schema",
+          "default": 0.0,
+          "examples": [
+            21823.793467
+          ]
+        },
+        "BZD": {
+          "$id": "#/properties/rates/properties/BZD",
+          "type": "number",
+          "title": "The Bzd Schema",
+          "default": 0.0,
+          "examples": [
+            2.243949
+          ]
+        },
+        "CAD": {
+          "$id": "#/properties/rates/properties/CAD",
+          "type": "number",
+          "title": "The Cad Schema",
+          "default": 0.0,
+          "examples": [
+            1.504784
+          ]
+        },
+        "CDF": {
+          "$id": "#/properties/rates/properties/CDF",
+          "type": "number",
+          "title": "The Cdf Schema",
+          "default": 0.0,
+          "examples": [
+            1843.341297
+          ]
+        },
+        "CHF": {
+          "$id": "#/properties/rates/properties/CHF",
+          "type": "number",
+          "title": "The Chf Schema",
+          "default": 0.0,
+          "examples": [
+            1.121363
+          ]
+        },
+        "CLF": {
+          "$id": "#/properties/rates/properties/CLF",
+          "type": "number",
+          "title": "The Clf Schema",
+          "default": 0.0,
+          "examples": [
+            0.028634
+          ]
+        },
+        "CLP": {
+          "$id": "#/properties/rates/properties/CLP",
+          "type": "number",
+          "title": "The Clp Schema",
+          "default": 0.0,
+          "examples": [
+            790.0991
+          ]
+        },
+        "CNY": {
+          "$id": "#/properties/rates/properties/CNY",
+          "type": "number",
+          "title": "The Cny Schema",
+          "default": 0.0,
+          "examples": [
+            7.684983
+          ]
+        },
+        "COP": {
+          "$id": "#/properties/rates/properties/COP",
+          "type": "number",
+          "title": "The Cop Schema",
+          "default": 0.0,
+          "examples": [
+            3743.225963
+          ]
+        },
+        "CRC": {
+          "$id": "#/properties/rates/properties/CRC",
+          "type": "number",
+          "title": "The Crc Schema",
+          "default": 0.0,
+          "examples": [
+            654.625219
+          ]
+        },
+        "CUC": {
+          "$id": "#/properties/rates/properties/CUC",
+          "type": "number",
+          "title": "The Cuc Schema",
+          "default": 0.0,
+          "examples": [
+            1.113459
+          ]
+        },
+        "CUP": {
+          "$id": "#/properties/rates/properties/CUP",
+          "type": "number",
+          "title": "The Cup Schema",
+          "default": 0.0,
+          "examples": [
+            29.50666
+          ]
+        },
+        "CVE": {
+          "$id": "#/properties/rates/properties/CVE",
+          "type": "number",
+          "title": "The Cve Schema",
+          "default": 0.0,
+          "examples": [
+            110.706205
+          ]
+        },
+        "CZK": {
+          "$id": "#/properties/rates/properties/CZK",
+          "type": "number",
+          "title": "The Czk Schema",
+          "default": 0.0,
+          "examples": [
+            25.839818
+          ]
+        },
+        "DJF": {
+          "$id": "#/properties/rates/properties/DJF",
+          "type": "number",
+          "title": "The Djf Schema",
+          "default": 0.0,
+          "examples": [
+            197.883826
+          ]
+        },
+        "DKK": {
+          "$id": "#/properties/rates/properties/DKK",
+          "type": "number",
+          "title": "The Dkk Schema",
+          "default": 0.0,
+          "examples": [
+            7.467133
+          ]
+        },
+        "DOP": {
+          "$id": "#/properties/rates/properties/DOP",
+          "type": "number",
+          "title": "The Dop Schema",
+          "default": 0.0,
+          "examples": [
+            58.453266
+          ]
+        },
+        "DZD": {
+          "$id": "#/properties/rates/properties/DZD",
+          "type": "number",
+          "title": "The Dzd Schema",
+          "default": 0.0,
+          "examples": [
+            133.336518
+          ]
+        },
+        "EGP": {
+          "$id": "#/properties/rates/properties/EGP",
+          "type": "number",
+          "title": "The Egp Schema",
+          "default": 0.0,
+          "examples": [
+            18.683954
+          ]
+        },
+        "ERN": {
+          "$id": "#/properties/rates/properties/ERN",
+          "type": "number",
+          "title": "The Ern Schema",
+          "default": 0.0,
+          "examples": [
+            16.702318
+          ]
+        },
+        "ETB": {
+          "$id": "#/properties/rates/properties/ETB",
+          "type": "number",
+          "title": "The Etb Schema",
+          "default": 0.0,
+          "examples": [
+            32.390872
+          ]
+        },
+        "EUR": {
+          "$id": "#/properties/rates/properties/EUR",
+          "type": "integer",
+          "title": "The Eur Schema",
+          "default": 0,
+          "examples": [
+            1
+          ]
+        },
+        "FJD": {
+          "$id": "#/properties/rates/properties/FJD",
+          "type": "number",
+          "title": "The Fjd Schema",
+          "default": 0.0,
+          "examples": [
+            2.405461
+          ]
+        },
+        "FKP": {
+          "$id": "#/properties/rates/properties/FKP",
+          "type": "number",
+          "title": "The Fkp Schema",
+          "default": 0.0,
+          "examples": [
+            0.881509
+          ]
+        },
+        "GBP": {
+          "$id": "#/properties/rates/properties/GBP",
+          "type": "number",
+          "title": "The Gbp Schema",
+          "default": 0.0,
+          "examples": [
+            0.882862
+          ]
+        },
+        "GEL": {
+          "$id": "#/properties/rates/properties/GEL",
+          "type": "number",
+          "title": "The Gel Schema",
+          "default": 0.0,
+          "examples": [
+            3.123239
+          ]
+        },
+        "GGP": {
+          "$id": "#/properties/rates/properties/GGP",
+          "type": "number",
+          "title": "The Ggp Schema",
+          "default": 0.0,
+          "examples": [
+            0.882961
+          ]
+        },
+        "GHS": {
+          "$id": "#/properties/rates/properties/GHS",
+          "type": "number",
+          "title": "The Ghs Schema",
+          "default": 0.0,
+          "examples": [
+            5.895768
+          ]
+        },
+        "GIP": {
+          "$id": "#/properties/rates/properties/GIP",
+          "type": "number",
+          "title": "The Gip Schema",
+          "default": 0.0,
+          "examples": [
+            0.881509
+          ]
+        },
+        "GMD": {
+          "$id": "#/properties/rates/properties/GMD",
+          "type": "number",
+          "title": "The Gmd Schema",
+          "default": 0.0,
+          "examples": [
+            55.38901
+          ]
+        },
+        "GNF": {
+          "$id": "#/properties/rates/properties/GNF",
+          "type": "number",
+          "title": "The Gnf Schema",
+          "default": 0.0,
+          "examples": [
+            10271.657663
+          ]
+        },
+        "GTQ": {
+          "$id": "#/properties/rates/properties/GTQ",
+          "type": "number",
+          "title": "The Gtq Schema",
+          "default": 0.0,
+          "examples": [
+            8.583154
+          ]
+        },
+        "GYD": {
+          "$id": "#/properties/rates/properties/GYD",
+          "type": "number",
+          "title": "The Gyd Schema",
+          "default": 0.0,
+          "examples": [
+            232.62366
+          ]
+        },
+        "HKD": {
+          "$id": "#/properties/rates/properties/HKD",
+          "type": "number",
+          "title": "The Hkd Schema",
+          "default": 0.0,
+          "examples": [
+            8.738035
+          ]
+        },
+        "HNL": {
+          "$id": "#/properties/rates/properties/HNL",
+          "type": "number",
+          "title": "The Hnl Schema",
+          "default": 0.0,
+          "examples": [
+            27.374368
+          ]
+        },
+        "HRK": {
+          "$id": "#/properties/rates/properties/HRK",
+          "type": "number",
+          "title": "The Hrk Schema",
+          "default": 0.0,
+          "examples": [
+            7.42059
+          ]
+        },
+        "HTG": {
+          "$id": "#/properties/rates/properties/HTG",
+          "type": "number",
+          "title": "The Htg Schema",
+          "default": 0.0,
+          "examples": [
+            101.571982
+          ]
+        },
+        "HUF": {
+          "$id": "#/properties/rates/properties/HUF",
+          "type": "number",
+          "title": "The Huf Schema",
+          "default": 0.0,
+          "examples": [
+            324.638931
+          ]
+        },
+        "IDR": {
+          "$id": "#/properties/rates/properties/IDR",
+          "type": "number",
+          "title": "The Idr Schema",
+          "default": 0.0,
+          "examples": [
+            16032.137257
+          ]
+        },
+        "ILS": {
+          "$id": "#/properties/rates/properties/ILS",
+          "type": "number",
+          "title": "The Ils Schema",
+          "default": 0.0,
+          "examples": [
+            4.044641
+          ]
+        },
+        "IMP": {
+          "$id": "#/properties/rates/properties/IMP",
+          "type": "number",
+          "title": "The Imp Schema",
+          "default": 0.0,
+          "examples": [
+            0.882961
+          ]
+        },
+        "INR": {
+          "$id": "#/properties/rates/properties/INR",
+          "type": "number",
+          "title": "The Inr Schema",
+          "default": 0.0,
+          "examples": [
+            77.686581
+          ]
+        },
+        "IQD": {
+          "$id": "#/properties/rates/properties/IQD",
+          "type": "number",
+          "title": "The Iqd Schema",
+          "default": 0.0,
+          "examples": [
+            1325.016032
+          ]
+        },
+        "IRR": {
+          "$id": "#/properties/rates/properties/IRR",
+          "type": "number",
+          "title": "The Irr Schema",
+          "default": 0.0,
+          "examples": [
+            46882.185038
+          ]
+        },
+        "ISK": {
+          "$id": "#/properties/rates/properties/ISK",
+          "type": "number",
+          "title": "The Isk Schema",
+          "default": 0.0,
+          "examples": [
+            138.492353
+          ]
+        },
+        "JEP": {
+          "$id": "#/properties/rates/properties/JEP",
+          "type": "number",
+          "title": "The Jep Schema",
+          "default": 0.0,
+          "examples": [
+            0.882961
+          ]
+        },
+        "JMD": {
+          "$id": "#/properties/rates/properties/JMD",
+          "type": "number",
+          "title": "The Jmd Schema",
+          "default": 0.0,
+          "examples": [
+            150.294694
+          ]
+        },
+        "JOD": {
+          "$id": "#/properties/rates/properties/JOD",
+          "type": "number",
+          "title": "The Jod Schema",
+          "default": 0.0,
+          "examples": [
+            0.789471
+          ]
+        },
+        "JPY": {
+          "$id": "#/properties/rates/properties/JPY",
+          "type": "number",
+          "title": "The Jpy Schema",
+          "default": 0.0,
+          "examples": [
+            121.932095
+          ]
+        },
+        "KES": {
+          "$id": "#/properties/rates/properties/KES",
+          "type": "number",
+          "title": "The Kes Schema",
+          "default": 0.0,
+          "examples": [
+            112.787791
+          ]
+        },
+        "KGS": {
+          "$id": "#/properties/rates/properties/KGS",
+          "type": "number",
+          "title": "The Kgs Schema",
+          "default": 0.0,
+          "examples": [
+            77.774963
+          ]
+        },
+        "KHR": {
+          "$id": "#/properties/rates/properties/KHR",
+          "type": "number",
+          "title": "The Khr Schema",
+          "default": 0.0,
+          "examples": [
+            4517.872846
+          ]
+        },
+        "KMF": {
+          "$id": "#/properties/rates/properties/KMF",
+          "type": "number",
+          "title": "The Kmf Schema",
+          "default": 0.0,
+          "examples": [
+            492.761144
+          ]
+        },
+        "KPW": {
+          "$id": "#/properties/rates/properties/KPW",
+          "type": "number",
+          "title": "The Kpw Schema",
+          "default": 0.0,
+          "examples": [
+            1002.125218
+          ]
+        },
+        "KRW": {
+          "$id": "#/properties/rates/properties/KRW",
+          "type": "number",
+          "title": "The Krw Schema",
+          "default": 0.0,
+          "examples": [
+            1325.072067
+          ]
+        },
+        "KWD": {
+          "$id": "#/properties/rates/properties/KWD",
+          "type": "number",
+          "title": "The Kwd Schema",
+          "default": 0.0,
+          "examples": [
+            0.339158
+          ]
+        },
+        "KYD": {
+          "$id": "#/properties/rates/properties/KYD",
+          "type": "number",
+          "title": "The Kyd Schema",
+          "default": 0.0,
+          "examples": [
+            0.927751
+          ]
+        },
+        "KZT": {
+          "$id": "#/properties/rates/properties/KZT",
+          "type": "number",
+          "title": "The Kzt Schema",
+          "default": 0.0,
+          "examples": [
+            424.171886
+          ]
+        },
+        "LAK": {
+          "$id": "#/properties/rates/properties/LAK",
+          "type": "number",
+          "title": "The Lak Schema",
+          "default": 0.0,
+          "examples": [
+            9628.635839
+          ]
+        },
+        "LBP": {
+          "$id": "#/properties/rates/properties/LBP",
+          "type": "number",
+          "title": "The Lbp Schema",
+          "default": 0.0,
+          "examples": [
+            1683.160245
+          ]
+        },
+        "LKR": {
+          "$id": "#/properties/rates/properties/LKR",
+          "type": "number",
+          "title": "The Lkr Schema",
+          "default": 0.0,
+          "examples": [
+            196.402454
+          ]
+        },
+        "LRD": {
+          "$id": "#/properties/rates/properties/LRD",
+          "type": "number",
+          "title": "The Lrd Schema",
+          "default": 0.0,
+          "examples": [
+            211.501394
+          ]
+        },
+        "LSL": {
+          "$id": "#/properties/rates/properties/LSL",
+          "type": "number",
+          "title": "The Lsl Schema",
+          "default": 0.0,
+          "examples": [
+            16.289755
+          ]
+        },
+        "LTL": {
+          "$id": "#/properties/rates/properties/LTL",
+          "type": "number",
+          "title": "The Ltl Schema",
+          "default": 0.0,
+          "examples": [
+            3.287754
+          ]
+        },
+        "LVL": {
+          "$id": "#/properties/rates/properties/LVL",
+          "type": "number",
+          "title": "The Lvl Schema",
+          "default": 0.0,
+          "examples": [
+            0.67352
+          ]
+        },
+        "LYD": {
+          "$id": "#/properties/rates/properties/LYD",
+          "type": "number",
+          "title": "The Lyd Schema",
+          "default": 0.0,
+          "examples": [
+            1.553264
+          ]
+        },
+        "MAD": {
+          "$id": "#/properties/rates/properties/MAD",
+          "type": "number",
+          "title": "The Mad Schema",
+          "default": 0.0,
+          "examples": [
+            10.832845
+          ]
+        },
+        "MDL": {
+          "$id": "#/properties/rates/properties/MDL",
+          "type": "number",
+          "title": "The Mdl Schema",
+          "default": 0.0,
+          "examples": [
+            20.247082
+          ]
+        },
+        "MGA": {
+          "$id": "#/properties/rates/properties/MGA",
+          "type": "number",
+          "title": "The Mga Schema",
+          "default": 0.0,
+          "examples": [
+            4064.124598
+          ]
+        },
+        "MKD": {
+          "$id": "#/properties/rates/properties/MKD",
+          "type": "number",
+          "title": "The Mkd Schema",
+          "default": 0.0,
+          "examples": [
+            61.628814
+          ]
+        },
+        "MMK": {
+          "$id": "#/properties/rates/properties/MMK",
+          "type": "number",
+          "title": "The Mmk Schema",
+          "default": 0.0,
+          "examples": [
+            1700.41843
+          ]
+        },
+        "MNT": {
+          "$id": "#/properties/rates/properties/MNT",
+          "type": "number",
+          "title": "The Mnt Schema",
+          "default": 0.0,
+          "examples": [
+            2945.671275
+          ]
+        },
+        "MOP": {
+          "$id": "#/properties/rates/properties/MOP",
+          "type": "number",
+          "title": "The Mop Schema",
+          "default": 0.0,
+          "examples": [
+            8.999252
+          ]
+        },
+        "MRO": {
+          "$id": "#/properties/rates/properties/MRO",
+          "type": "number",
+          "title": "The Mro Schema",
+          "default": 0.0,
+          "examples": [
+            397.505083
+          ]
+        },
+        "MUR": {
+          "$id": "#/properties/rates/properties/MUR",
+          "type": "number",
+          "title": "The Mur Schema",
+          "default": 0.0,
+          "examples": [
+            39.66698
+          ]
+        },
+        "MVR": {
+          "$id": "#/properties/rates/properties/MVR",
+          "type": "number",
+          "title": "The Mvr Schema",
+          "default": 0.0,
+          "examples": [
+            17.203126
+          ]
+        },
+        "MWK": {
+          "$id": "#/properties/rates/properties/MWK",
+          "type": "number",
+          "title": "The Mwk Schema",
+          "default": 0.0,
+          "examples": [
+            801.86297
+          ]
+        },
+        "MXN": {
+          "$id": "#/properties/rates/properties/MXN",
+          "type": "number",
+          "title": "The Mxn Schema",
+          "default": 0.0,
+          "examples": [
+            21.295112
+          ]
+        },
+        "MYR": {
+          "$id": "#/properties/rates/properties/MYR",
+          "type": "number",
+          "title": "The Myr Schema",
+          "default": 0.0,
+          "examples": [
+            4.661496
+          ]
+        },
+        "MZN": {
+          "$id": "#/properties/rates/properties/MZN",
+          "type": "number",
+          "title": "The Mzn Schema",
+          "default": 0.0,
+          "examples": [
+            69.30164
+          ]
+        },
+        "NAD": {
+          "$id": "#/properties/rates/properties/NAD",
+          "type": "number",
+          "title": "The Nad Schema",
+          "default": 0.0,
+          "examples": [
+            16.290086
+          ]
+        },
+        "NGN": {
+          "$id": "#/properties/rates/properties/NGN",
+          "type": "number",
+          "title": "The Ngn Schema",
+          "default": 0.0,
+          "examples": [
+            400.84506
+          ]
+        },
+        "NIO": {
+          "$id": "#/properties/rates/properties/NIO",
+          "type": "number",
+          "title": "The Nio Schema",
+          "default": 0.0,
+          "examples": [
+            37.055785
+          ]
+        },
+        "NOK": {
+          "$id": "#/properties/rates/properties/NOK",
+          "type": "number",
+          "title": "The Nok Schema",
+          "default": 0.0,
+          "examples": [
+            9.772071
+          ]
+        },
+        "NPR": {
+          "$id": "#/properties/rates/properties/NPR",
+          "type": "number",
+          "title": "The Npr Schema",
+          "default": 0.0,
+          "examples": [
+            124.468029
+          ]
+        },
+        "NZD": {
+          "$id": "#/properties/rates/properties/NZD",
+          "type": "number",
+          "title": "The Nzd Schema",
+          "default": 0.0,
+          "examples": [
+            1.711247
+          ]
+        },
+        "OMR": {
+          "$id": "#/properties/rates/properties/OMR",
+          "type": "number",
+          "title": "The Omr Schema",
+          "default": 0.0,
+          "examples": [
+            0.428676
+          ]
+        },
+        "PAB": {
+          "$id": "#/properties/rates/properties/PAB",
+          "type": "number",
+          "title": "The Pab Schema",
+          "default": 0.0,
+          "examples": [
+            1.11318
+          ]
+        },
+        "PEN": {
+          "$id": "#/properties/rates/properties/PEN",
+          "type": "number",
+          "title": "The Pen Schema",
+          "default": 0.0,
+          "examples": [
+            3.739162
+          ]
+        },
+        "PGK": {
+          "$id": "#/properties/rates/properties/PGK",
+          "type": "number",
+          "title": "The Pgk Schema",
+          "default": 0.0,
+          "examples": [
+            3.762099
+          ]
+        },
+        "PHP": {
+          "$id": "#/properties/rates/properties/PHP",
+          "type": "number",
+          "title": "The Php Schema",
+          "default": 0.0,
+          "examples": [
+            58.089702
+          ]
+        },
+        "PKR": {
+          "$id": "#/properties/rates/properties/PKR",
+          "type": "number",
+          "title": "The Pkr Schema",
+          "default": 0.0,
+          "examples": [
+            167.875834
+          ]
+        },
+        "PLN": {
+          "$id": "#/properties/rates/properties/PLN",
+          "type": "number",
+          "title": "The Pln Schema",
+          "default": 0.0,
+          "examples": [
+            4.289767
+          ]
+        },
+        "PYG": {
+          "$id": "#/properties/rates/properties/PYG",
+          "type": "number",
+          "title": "The Pyg Schema",
+          "default": 0.0,
+          "examples": [
+            7023.582562
+          ]
+        },
+        "QAR": {
+          "$id": "#/properties/rates/properties/QAR",
+          "type": "number",
+          "title": "The Qar Schema",
+          "default": 0.0,
+          "examples": [
+            4.053825
+          ]
+        },
+        "RON": {
+          "$id": "#/properties/rates/properties/RON",
+          "type": "number",
+          "title": "The Ron Schema",
+          "default": 0.0,
+          "examples": [
+            4.752353
+          ]
+        },
+        "RSD": {
+          "$id": "#/properties/rates/properties/RSD",
+          "type": "number",
+          "title": "The Rsd Schema",
+          "default": 0.0,
+          "examples": [
+            117.937271
+          ]
+        },
+        "RUB": {
+          "$id": "#/properties/rates/properties/RUB",
+          "type": "number",
+          "title": "The Rub Schema",
+          "default": 0.0,
+          "examples": [
+            72.565113
+          ]
+        },
+        "RWF": {
+          "$id": "#/properties/rates/properties/RWF",
+          "type": "number",
+          "title": "The Rwf Schema",
+          "default": 0.0,
+          "examples": [
+            1004.896612
+          ]
+        },
+        "SAR": {
+          "$id": "#/properties/rates/properties/SAR",
+          "type": "number",
+          "title": "The Sar Schema",
+          "default": 0.0,
+          "examples": [
+            4.175373
+          ]
+        },
+        "SBD": {
+          "$id": "#/properties/rates/properties/SBD",
+          "type": "number",
+          "title": "The Sbd Schema",
+          "default": 0.0,
+          "examples": [
+            9.025308
+          ]
+        },
+        "SCR": {
+          "$id": "#/properties/rates/properties/SCR",
+          "type": "number",
+          "title": "The Scr Schema",
+          "default": 0.0,
+          "examples": [
+            15.23178
+          ]
+        },
+        "SDG": {
+          "$id": "#/properties/rates/properties/SDG",
+          "type": "number",
+          "title": "The Sdg Schema",
+          "default": 0.0,
+          "examples": [
+            50.221436
+          ]
+        },
+        "SEK": {
+          "$id": "#/properties/rates/properties/SEK",
+          "type": "number",
+          "title": "The Sek Schema",
+          "default": 0.0,
+          "examples": [
+            10.612504
+          ]
+        },
+        "SGD": {
+          "$id": "#/properties/rates/properties/SGD",
+          "type": "number",
+          "title": "The Sgd Schema",
+          "default": 0.0,
+          "examples": [
+            1.535321
+          ]
+        },
+        "SHP": {
+          "$id": "#/properties/rates/properties/SHP",
+          "type": "number",
+          "title": "The Shp Schema",
+          "default": 0.0,
+          "examples": [
+            1.470765
+          ]
+        },
+        "SLL": {
+          "$id": "#/properties/rates/properties/SLL",
+          "type": "number",
+          "title": "The Sll Schema",
+          "default": 0.0,
+          "examples": [
+            9887.514716
+          ]
+        },
+        "SOS": {
+          "$id": "#/properties/rates/properties/SOS",
+          "type": "number",
+          "title": "The Sos Schema",
+          "default": 0.0,
+          "examples": [
+            648.583251
+          ]
+        },
+        "SRD": {
+          "$id": "#/properties/rates/properties/SRD",
+          "type": "number",
+          "title": "The Srd Schema",
+          "default": 0.0,
+          "examples": [
+            8.304135
+          ]
+        },
+        "STD": {
+          "$id": "#/properties/rates/properties/STD",
+          "type": "number",
+          "title": "The Std Schema",
+          "default": 0.0,
+          "examples": [
+            23438.976441
+          ]
+        },
+        "SVC": {
+          "$id": "#/properties/rates/properties/SVC",
+          "type": "number",
+          "title": "The Svc Schema",
+          "default": 0.0,
+          "examples": [
+            9.741373
+          ]
+        },
+        "SYP": {
+          "$id": "#/properties/rates/properties/SYP",
+          "type": "number",
+          "title": "The Syp Schema",
+          "default": 0.0,
+          "examples": [
+            573.430688
+          ]
+        },
+        "SZL": {
+          "$id": "#/properties/rates/properties/SZL",
+          "type": "number",
+          "title": "The Szl Schema",
+          "default": 0.0,
+          "examples": [
+            16.28993
+          ]
+        },
+        "THB": {
+          "$id": "#/properties/rates/properties/THB",
+          "type": "number",
+          "title": "The Thb Schema",
+          "default": 0.0,
+          "examples": [
+            35.375172
+          ]
+        },
+        "TJS": {
+          "$id": "#/properties/rates/properties/TJS",
+          "type": "number",
+          "title": "The Tjs Schema",
+          "default": 0.0,
+          "examples": [
+            10.502422
+          ]
+        },
+        "TMT": {
+          "$id": "#/properties/rates/properties/TMT",
+          "type": "number",
+          "title": "The Tmt Schema",
+          "default": 0.0,
+          "examples": [
+            3.908241
+          ]
+        },
+        "TND": {
+          "$id": "#/properties/rates/properties/TND",
+          "type": "number",
+          "title": "The Tnd Schema",
+          "default": 0.0,
+          "examples": [
+            3.348505
+          ]
+        },
+        "TOP": {
+          "$id": "#/properties/rates/properties/TOP",
+          "type": "number",
+          "title": "The Top Schema",
+          "default": 0.0,
+          "examples": [
+            2.558289
+          ]
+        },
+        "TRY": {
+          "$id": "#/properties/rates/properties/TRY",
+          "type": "number",
+          "title": "The Try Schema",
+          "default": 0.0,
+          "examples": [
+            6.547049
+          ]
+        },
+        "TTD": {
+          "$id": "#/properties/rates/properties/TTD",
+          "type": "number",
+          "title": "The Ttd Schema",
+          "default": 0.0,
+          "examples": [
+            7.539843
+          ]
+        },
+        "TWD": {
+          "$id": "#/properties/rates/properties/TWD",
+          "type": "number",
+          "title": "The Twd Schema",
+          "default": 0.0,
+          "examples": [
+            35.173611
+          ]
+        },
+        "TZS": {
+          "$id": "#/properties/rates/properties/TZS",
+          "type": "number",
+          "title": "The Tzs Schema",
+          "default": 0.0,
+          "examples": [
+            2556.501653
+          ]
+        },
+        "UAH": {
+          "$id": "#/properties/rates/properties/UAH",
+          "type": "number",
+          "title": "The Uah Schema",
+          "default": 0.0,
+          "examples": [
+            30.005463
+          ]
+        },
+        "UGX": {
+          "$id": "#/properties/rates/properties/UGX",
+          "type": "number",
+          "title": "The Ugx Schema",
+          "default": 0.0,
+          "examples": [
+            4185.828945
+          ]
+        },
+        "USD": {
+          "$id": "#/properties/rates/properties/USD",
+          "type": "number",
+          "title": "The Usd Schema",
+          "default": 0.0,
+          "examples": [
+            1.113459
+          ]
+        },
+        "UYU": {
+          "$id": "#/properties/rates/properties/UYU",
+          "type": "number",
+          "title": "The Uyu Schema",
+          "default": 0.0,
+          "examples": [
+            39.116215
+          ]
+        },
+        "UZS": {
+          "$id": "#/properties/rates/properties/UZS",
+          "type": "number",
+          "title": "The Uzs Schema",
+          "default": 0.0,
+          "examples": [
+            9447.6986
+          ]
+        },
+        "VEF": {
+          "$id": "#/properties/rates/properties/VEF",
+          "type": "number",
+          "title": "The Vef Schema",
+          "default": 0.0,
+          "examples": [
+            11.120674
+          ]
+        },
+        "VND": {
+          "$id": "#/properties/rates/properties/VND",
+          "type": "number",
+          "title": "The Vnd Schema",
+          "default": 0.0,
+          "examples": [
+            26074.64532
+          ]
+        },
+        "VUV": {
+          "$id": "#/properties/rates/properties/VUV",
+          "type": "number",
+          "title": "The Vuv Schema",
+          "default": 0.0,
+          "examples": [
+            129.362775
+          ]
+        },
+        "WST": {
+          "$id": "#/properties/rates/properties/WST",
+          "type": "number",
+          "title": "The Wst Schema",
+          "default": 0.0,
+          "examples": [
+            2.948445
+          ]
+        },
+        "XAF": {
+          "$id": "#/properties/rates/properties/XAF",
+          "type": "number",
+          "title": "The Xaf Schema",
+          "default": 0.0,
+          "examples": [
+            655.753208
+          ]
+        },
+        "XAG": {
+          "$id": "#/properties/rates/properties/XAG",
+          "type": "number",
+          "title": "The Xag Schema",
+          "default": 0.0,
+          "examples": [
+            0.076649
+          ]
+        },
+        "XAU": {
+          "$id": "#/properties/rates/properties/XAU",
+          "type": "number",
+          "title": "The Xau Schema",
+          "default": 0.0,
+          "examples": [
+            0.000864
+          ]
+        },
+        "XCD": {
+          "$id": "#/properties/rates/properties/XCD",
+          "type": "number",
+          "title": "The Xcd Schema",
+          "default": 0.0,
+          "examples": [
+            3.009178
+          ]
+        },
+        "XDR": {
+          "$id": "#/properties/rates/properties/XDR",
+          "type": "number",
+          "title": "The Xdr Schema",
+          "default": 0.0,
+          "examples": [
+            0.808626
+          ]
+        },
+        "XOF": {
+          "$id": "#/properties/rates/properties/XOF",
+          "type": "number",
+          "title": "The Xof Schema",
+          "default": 0.0,
+          "examples": [
+            654.713391
+          ]
+        },
+        "XPF": {
+          "$id": "#/properties/rates/properties/XPF",
+          "type": "number",
+          "title": "The Xpf Schema",
+          "default": 0.0,
+          "examples": [
+            119.752219
+          ]
+        },
+        "YER": {
+          "$id": "#/properties/rates/properties/YER",
+          "type": "number",
+          "title": "The Yer Schema",
+          "default": 0.0,
+          "examples": [
+            278.197195
+          ]
+        },
+        "ZAR": {
+          "$id": "#/properties/rates/properties/ZAR",
+          "type": "number",
+          "title": "The Zar Schema",
+          "default": 0.0,
+          "examples": [
+            16.41255
+          ]
+        },
+        "ZMK": {
+          "$id": "#/properties/rates/properties/ZMK",
+          "type": "number",
+          "title": "The Zmk Schema",
+          "default": 0.0,
+          "examples": [
+            10022.445087
+          ]
+        },
+        "ZMW": {
+          "$id": "#/properties/rates/properties/ZMW",
+          "type": "number",
+          "title": "The Zmw Schema",
+          "default": 0.0,
+          "examples": [
+            14.945955
+          ]
+        },
+        "ZWL": {
+          "$id": "#/properties/rates/properties/ZWL",
+          "type": "number",
+          "title": "The Zwl Schema",
+          "default": 0.0,
+          "examples": [
+            358.92904
+          ]
+        }
+      }
+    }
+  }
+}
